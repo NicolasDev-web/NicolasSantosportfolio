@@ -1,0 +1,54 @@
+{
+  "categories": [
+    {
+      "name": "IA e Dados",
+      "icon": "FaBrain",
+      "skills": [
+        { "name": "IA Generativa", "level": 95, "icon": "SiPython" },
+        { "name": "RAG", "level": 90, "icon": "SiPython" },
+        { "name": "LangChain", "level": 85, "icon": "SiPython" },
+        { "name": "ChromaDB", "level": 80, "icon": "FaDatabase" },
+        { "name": "Ollama", "level": 85, "icon": "FaServer" },
+        { "name": "Machine Learning", "level": 90, "icon": "SiScikitlearn" }
+      ]
+    },
+    {
+      "name": "Bancos e ETL",
+      "icon": "FaDatabase",
+      "skills": [
+        { "name": "PostgreSQL", "level": 90, "icon": "SiPostgresql" },
+        { "name": "SQL Server", "level": 85, "icon": "FaDatabase" },
+        { "name": "SQL", "level": 95, "icon": "FaDatabase" },
+        { "name": "Pentaho", "level": 80, "icon": "FaServer" }
+      ]
+    },
+    {
+      "name": "Visualização",
+      "icon": "FaChartBar",
+      "skills": [
+        { "name": "Power BI", "level": 90, "icon": "FaChartBar" },
+        { "name": "Excel Avançado", "level": 95, "icon": "FaTable" }
+      ]
+    },
+    {
+      "name": "Linguagens",
+      "icon": "FaCode",
+      "skills": [
+        { "name": "Python", "level": 95, "icon": "SiPython" },
+        { "name": "Pandas", "level": 90, "icon": "SiPandas" },
+        { "name": "Java", "level": 75, "icon": "FaJava" },
+        { "name": "JavaScript", "level": 80, "icon": "SiJavascript" }
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "icon": "FaUsers",
+      "skills": [
+        { "name": "Visão de Negócio", "level": 95, "icon": "FaBrain" },
+        { "name": "Comunicação", "level": 95, "icon": "FaUsers" },
+        { "name": "Organização", "level": 90, "icon": "FaClipboardList" },
+        { "name": "Inglês Fluente", "level": 100, "icon": "FaLanguage" }
+      ]
+    }
+  ]
+}

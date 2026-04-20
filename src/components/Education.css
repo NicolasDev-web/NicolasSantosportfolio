@@ -1,0 +1,103 @@
+.education__timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.education__line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--accent-purple), var(--accent-cyan), transparent);
+  transform: translateX(-50%);
+}
+
+.education__item {
+  position: relative;
+  width: 50%;
+  padding: 0 40px 60px;
+}
+
+.education__item--left {
+  left: 0;
+  text-align: right;
+}
+
+.education__item--right {
+  left: 50%;
+  text-align: left;
+}
+
+.education__dot {
+  position: absolute;
+  top: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--bg-secondary);
+  border: 2px solid var(--accent-purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-purple-light);
+  font-size: 0.85rem;
+  z-index: 2;
+  box-shadow: var(--shadow-glow-purple);
+}
+
+.education__item--left .education__dot {
+  right: -20px;
+}
+
+.education__item--right .education__dot {
+  left: -20px;
+}
+
+.education__card {
+  padding: 28px;
+}
+
+.education__period {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent-cyan);
+  margin-bottom: 8px;
+}
+
+.education__course {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.education__institution {
+  font-size: 0.95rem;
+  color: var(--accent-purple-light);
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+  .education__line {
+    left: 20px;
+  }
+
+  .education__item,
+  .education__item--left,
+  .education__item--right {
+    width: 100%;
+    left: 0;
+    text-align: left;
+    padding: 0 0 40px 60px;
+  }
+
+  .education__item--left .education__dot,
+  .education__item--right .education__dot {
+    left: 0;
+  }
+}

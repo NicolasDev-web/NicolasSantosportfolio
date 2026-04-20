@@ -1,0 +1,142 @@
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 80px;
+  align-items: center;
+}
+
+/* Image */
+.about__image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about__image-container {
+  position: relative;
+  width: 320px;
+  height: 380px;
+}
+
+.about__image-placeholder {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-xl);
+  background: var(--gradient-card);
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.about__image-emoji {
+  font-size: 8rem;
+}
+
+.about__image-border {
+  position: absolute;
+  inset: -3px;
+  border-radius: calc(var(--radius-xl) + 3px);
+  background: var(--gradient-main);
+  opacity: 0.4;
+  z-index: 0;
+  animation: glow 3s ease-in-out infinite;
+}
+
+.about__image-float {
+  position: absolute;
+  font-size: 2rem;
+  z-index: 2;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.about__image-float--1 {
+  top: -10px;
+  right: -20px;
+}
+
+.about__image-float--2 {
+  bottom: 20px;
+  left: -25px;
+}
+
+.about__image-float--3 {
+  top: 40%;
+  right: -30px;
+}
+
+/* Content */
+.about__content {
+  /* no special styles needed */
+}
+
+.about__text {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.about__text strong {
+  color: var(--accent-purple-light);
+  font-weight: 600;
+}
+
+/* Stats */
+.about__stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.about__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 20px 12px;
+  text-align: center;
+}
+
+.about__stat-icon {
+  color: var(--accent-cyan);
+  font-size: 1.3rem;
+  margin-bottom: 4px;
+}
+
+.about__stat-value {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.about__stat-label {
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .about__image-container {
+    width: 240px;
+    height: 280px;
+  }
+
+  .about__image-emoji {
+    font-size: 5rem;
+  }
+
+  .about__stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

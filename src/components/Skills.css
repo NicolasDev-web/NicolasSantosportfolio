@@ -1,0 +1,144 @@
+.skills {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Tabs */
+.skills__tabs {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+}
+
+.skills__tab {
+  position: relative;
+  padding: 10px 24px;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color var(--transition-fast);
+  z-index: 1;
+}
+
+.skills__tab--active {
+  color: white;
+  border-color: transparent;
+}
+
+.skills__tab-bg {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-full);
+  background: var(--gradient-main);
+  z-index: -1;
+}
+
+/* Grid */
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Card */
+.skills__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 28px 20px;
+  cursor: default;
+}
+
+.skills__card-icon {
+  font-size: 2.2rem;
+  color: var(--accent-purple-light);
+  transition: var(--transition-base);
+}
+
+.skills__card:hover .skills__card-icon {
+  color: var(--accent-cyan);
+  transform: scale(1.1);
+}
+
+.skills__card-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* Progress Bar */
+.skills__progress-bar {
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.skills__progress-fill {
+  height: 100%;
+  background: var(--gradient-main);
+  border-radius: var(--radius-full);
+  box-shadow: 0 0 8px rgba(124, 58, 237, 0.4);
+}
+
+.skills__level {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  font-family: var(--font-mono);
+}
+
+/* Orbit Decoration */
+.skills__orbit {
+  position: absolute;
+  top: 50%;
+  right: -200px;
+  transform: translateY(-50%);
+  width: 400px;
+  height: 400px;
+  pointer-events: none;
+}
+
+.skills__orbit-ring {
+  position: absolute;
+  border: 1px solid rgba(124, 58, 237, 0.08);
+  border-radius: 50%;
+  animation: orbitSpin 20s linear infinite;
+}
+
+.skills__orbit-ring--1 {
+  inset: 0;
+}
+
+.skills__orbit-ring--2 {
+  inset: 40px;
+  animation-duration: 30s;
+  animation-direction: reverse;
+}
+
+.skills__orbit-ring--3 {
+  inset: 80px;
+  animation-duration: 25s;
+}
+
+@media (max-width: 768px) {
+  .skills__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .skills__orbit {
+    display: none;
+  }
+}

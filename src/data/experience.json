@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "role": "Estagiário de Automação",
+    "role_en": "Automation Intern",
+    "company": "Accord",
+    "period": "Mar 2026 — Presente",
+    "period_en": "Mar 2026 — Present",
+    "description": "Automação de processos operacionais e pipelines de integração de dados. Tratamento, modelagem e análise de grandes volumes de dados. Desenvolvimento e manutenção de dashboards gerenciais no Power BI com foco em KPIs estratégicos.",
+    "description_en": "Automation of operational processes and data integration pipelines. Processing, modeling, and analysis of large volumes of data. Development and maintenance of management dashboards in Power BI focusing on strategic KPIs.",
+    "technologies": ["Pentaho", "SQL", "Excel Avançado", "Power BI"]
+  },
+  {
+    "id": 3,
+    "role": "Assistente Administrativo",
+    "role_en": "Administrative Assistant",
+    "company": "Confidencial",
+    "period": "Ago 2025 — Fev 2026",
+    "period_en": "Aug 2025 — Feb 2026",
+    "description": "Mais de 6 meses em rotinas administrativas, controle operacional e apoio à gestão de demandas da equipe.",
+    "description_en": "Over 6 months in administrative routines, operational control, and support to the team's demand management.",
+    "technologies": ["Gestão", "Controle Operacional"]
+  }
+]

@@ -1,0 +1,124 @@
+.experience__timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.experience__line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--accent-purple), var(--accent-cyan), transparent);
+  transform: translateX(-50%);
+}
+
+.experience__item {
+  position: relative;
+  width: 50%;
+  padding: 0 40px 60px;
+}
+
+.experience__item--left {
+  left: 0;
+  text-align: right;
+}
+
+.experience__item--right {
+  left: 50%;
+  text-align: left;
+}
+
+.experience__dot {
+  position: absolute;
+  top: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--bg-secondary);
+  border: 2px solid var(--accent-purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-purple-light);
+  font-size: 0.85rem;
+  z-index: 2;
+  box-shadow: var(--shadow-glow-purple);
+}
+
+.experience__item--left .experience__dot {
+  right: -20px;
+}
+
+.experience__item--right .experience__dot {
+  left: -20px;
+}
+
+.experience__card {
+  padding: 28px;
+}
+
+.experience__period {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent-cyan);
+  margin-bottom: 8px;
+}
+
+.experience__role {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.experience__company {
+  font-size: 0.95rem;
+  color: var(--accent-purple-light);
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.experience__desc {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.experience__techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.experience__item--left .experience__techs {
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .experience__line {
+    left: 20px;
+  }
+
+  .experience__item,
+  .experience__item--left,
+  .experience__item--right {
+    width: 100%;
+    left: 0;
+    text-align: left;
+    padding: 0 0 40px 60px;
+  }
+
+  .experience__item--left .experience__dot,
+  .experience__item--right .experience__dot {
+    left: 0;
+  }
+
+  .experience__item--left .experience__techs {
+    justify-content: flex-start;
+  }
+}

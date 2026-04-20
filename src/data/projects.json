@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "P.U.L.S.E.",
+    "description": "Pipeline Único de Leitura e Segmentação Epidemiológica. Sistema RAG local para consulta inteligente de protocolos do Ministério da Saúde.",
+    "description_en": "Unique Epidemiological Reading and Segmentation Pipeline. Local RAG system for intelligent consultation of Ministry of Health protocols.",
+    "longDescription": "Sistema RAG local para consulta inteligente de protocolos clínicos do Ministério da Saúde (PCDTs), com arquitetura Local-First (conformidade LGPD, custo zero de API). Pipeline com Python, Pandas, LangChain (chunking inteligente), ChromaDB (busca vetorial) e modelo Phi-3 via Ollama. Interface conversacional em Streamlit com 500+ fragmentos de documentos técnicos indexados.",
+    "longDescription_en": "Local RAG system for intelligent consultation of Ministry of Health clinical protocols (PCDTs), with a Local-First architecture (LGPD compliance, zero API cost). Pipeline built with Python, Pandas, LangChain (intelligent chunking), ChromaDB (vector search), and the Phi-3 model via Ollama. Conversational interface in Streamlit with 500+ indexed fragments of technical documents.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    "tags": ["Python", "LangChain", "ChromaDB", "Ollama", "Streamlit"],
+    "category": "ai",
+    "github": "https://github.com/NicolasDev-web/P.U.L.S.E",
+    "live": null,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "ChurnPrediction",
+    "description": "Análise Preditiva de Churn (Evasão de Clientes). Modelo preditivo de Machine Learning para identificar padrões de comportamento.",
+    "description_en": "Predictive Churn Analysis (Customer Attrition). Predictive Machine Learning model to identify behavior patterns.",
+    "longDescription": "Modelo preditivo de Machine Learning para identificar padrões de comportamento de clientes propensos ao cancelamento. Desenvolvido com Python, Pandas e Scikit-Learn; inclui EDA completa para extração de correlações e insights de negócio.",
+    "longDescription_en": "Predictive Machine Learning model to identify behavior patterns of customers prone to cancellation. Developed with Python, Pandas, and Scikit-Learn; includes complete EDA to extract correlations and business insights.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    "tags": ["Python", "Pandas", "Scikit-Learn", "Machine Learning"],
+    "category": "data",
+    "github": "https://github.com/NicolasDev-web/ChurnPrediction",
+    "live": null,
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Unigym",
+    "description": "Aplicativo Fitness e IA. Plataforma mobile focada no ecossistema fitness com integração de Chatbot interativo.",
+    "description_en": "Fitness App and AI. Mobile platform focused on the fitness ecosystem with interactive Chatbot integration.",
+    "longDescription": "Plataforma mobile focada no ecossistema fitness, permitindo a professores criar e gerir planos de treino e aos alunos acessar rotinas, agendar aulas e monitorar progresso. Integração de Chatbot interativo baseado em IA Generativa para otimização do atendimento e experiência do usuário em tempo real.",
+    "longDescription_en": "Mobile platform focused on the fitness ecosystem, allowing teachers to create and manage training plans and students to access routines, schedule classes, and monitor progress. Interactive Chatbot integration based on Generative AI to optimize customer service and user experience in real-time.",
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&h=400&fit=crop",
+    "tags": ["Mobile", "IA Generativa", "Chatbot"],
+    "category": "fullstack",
+    "github": "https://github.com/NicolasDev-web",
+    "live": null,
+    "featured": true
+  }
+]
