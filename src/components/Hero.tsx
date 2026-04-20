@@ -144,7 +144,7 @@ export default function Hero() {
               {t('hero.viewProjects')}
             </motion.a>
             <motion.a
-              href="/Cúrriculo Nicolas dos Santos Xavier.pdf"
+              href={`${import.meta.env.BASE_URL}curriculo.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-secondary"
