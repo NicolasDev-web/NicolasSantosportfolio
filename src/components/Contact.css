@@ -1,15 +1,9 @@
-.contact__grid {
+.contact__info {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
   max-width: 900px;
   margin: 0 auto;
-}
-
-.contact__info {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
 
 .contact__info-card {
@@ -17,11 +11,14 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  text-align: center;
+  align-items: center;
 }
 
 .contact__info-icon {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--accent-purple-light);
+  margin-bottom: 10px;
 }
 
 .contact__info-card h3 {
@@ -34,78 +31,8 @@
   font-size: 0.9rem;
 }
 
-/* Form */
-.contact__form {
-  padding: 36px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.contact__field {
-  position: relative;
-}
-
-.contact__field input,
-.contact__field textarea {
-  width: 100%;
-  padding: 16px;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-md);
-  color: var(--text-primary);
-  font-family: var(--font-sans);
-  font-size: 0.95rem;
-  outline: none;
-  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
-  resize: vertical;
-}
-
-.contact__field input:focus,
-.contact__field textarea:focus {
-  border-color: var(--accent-purple);
-  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1);
-}
-
-.contact__field label {
-  position: absolute;
-  left: 16px;
-  top: 16px;
-  color: var(--text-tertiary);
-  font-size: 0.95rem;
-  pointer-events: none;
-  transition: var(--transition-fast);
-}
-
-.contact__field input:focus ~ label,
-.contact__field input:not(:placeholder-shown) ~ label,
-.contact__field textarea:focus ~ label,
-.contact__field textarea:not(:placeholder-shown) ~ label {
-  top: -10px;
-  left: 12px;
-  font-size: 0.75rem;
-  color: var(--accent-purple-light);
-  background: var(--bg-primary);
-  padding: 0 6px;
-}
-
-.contact__submit {
-  align-self: flex-start;
-  min-width: 200px;
-  justify-content: center;
-}
-
-.contact__spinner {
-  width: 20px;
-  height: 20px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  border-top-color: white;
-  border-radius: 50%;
-  animation: spin 0.6s linear infinite;
-}
-
 @media (max-width: 768px) {
-  .contact__grid {
+  .contact__info {
     grid-template-columns: 1fr;
   }
 }
