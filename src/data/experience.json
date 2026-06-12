@@ -23,6 +23,28 @@
   },
   {
     "id": 1,
+    "role": "Databricks Student Fellow",
+    "role_en": "Databricks Student Fellow",
+    "company": "Databricks",
+    "period": "2026 — Presente",
+    "period_en": "2026 — Present",
+    "description": "Selecionado entre 36 alunos no mundo inteiro para o programa global Student Fellow da Databricks. Treinamento intensivo em engenharia de dados, lakehouse architecture e soluções de IA em larga escala na plataforma Databricks.",
+    "description_en": "Selected among 36 students worldwide for the Databricks global Student Fellow program. Intensive training in data engineering, lakehouse architecture, and large-scale AI solutions on the Databricks platform.",
+    "technologies": ["Databricks", "Spark", "Data Engineering", "Lakehouse"]
+  },
+  {
+    "id": 2,
+    "role": "Estagiário — Analista de Dados com Foco em IA",
+    "role_en": "Intern — Data Analyst with AI Focus",
+    "company": "MRV",
+    "period": "Mai 2026 — Presente",
+    "period_en": "May 2026 — Present",
+    "description": "Atuação como estagiário em análise de dados com foco em Inteligência Artificial, contribuindo com soluções data-driven para otimização de processos e tomada de decisão estratégica.",
+    "description_en": "Working as an intern in data analysis with a focus on Artificial Intelligence, contributing data-driven solutions for process optimization and strategic decision-making.",
+    "technologies": ["Python", "SQL", "Power BI", "IA"]
+  },
+  {
+    "id": 3,
     "role": "Estagiário de Automação",
     "role_en": "Automation Intern",
     "company": "Accord",
@@ -33,7 +55,7 @@
     "technologies": ["Pentaho", "SQL", "Excel Avançado", "Power BI"]
   },
   {
-    "id": 3,
+    "id": 4,
     "role": "Assistente Administrativo",
     "role_en": "Administrative Assistant",
     "company": "Confidencial",
