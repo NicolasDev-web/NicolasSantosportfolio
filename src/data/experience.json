@@ -1,11 +1,33 @@
 [
   {
+    "id": 5,
+    "role": "Estagiário de Dados",
+    "role_en": "Data Intern",
+    "company": "MRV&CO",
+    "period": "Mai 2026 — Presente",
+    "period_en": "May 2026 — Present",
+    "description": "Atuação na área de dados de uma das maiores construtoras da América Latina. Construção e manutenção de pipelines de dados, análise e modelagem de grandes volumes de dados e desenvolvimento de dashboards para suporte à tomada de decisão.",
+    "description_en": "Working in the data team of one of the largest construction companies in Latin America. Building and maintaining data pipelines, analyzing and modeling large volumes of data, and developing dashboards to support decision-making.",
+    "technologies": ["SQL", "Python", "Power BI", "Databricks"]
+  },
+  {
+    "id": 4,
+    "role": "Databricks Student Fellow",
+    "role_en": "Databricks Student Fellow",
+    "company": "Databricks",
+    "period": "2026 — Presente",
+    "period_en": "2026 — Present",
+    "description": "Selecionado para o programa Databricks Student Fellows, voltado a estudantes de destaque em dados e IA. Treinamento especializado com experts da Databricks, certificações oficiais, desenvolvimento de projetos práticos na plataforma e liderança de iniciativas técnicas na comunidade acadêmica.",
+    "description_en": "Selected for the Databricks Student Fellows program, aimed at outstanding students in data and AI. Specialized training with Databricks experts, official certifications, hands-on projects on the platform, and leadership of technical initiatives in the academic community.",
+    "technologies": ["Databricks", "Apache Spark", "SQL", "Engenharia de Dados"]
+  },
+  {
     "id": 1,
     "role": "Estagiário de Automação",
     "role_en": "Automation Intern",
     "company": "Accord",
-    "period": "Mar 2026 — Presente",
-    "period_en": "Mar 2026 — Present",
+    "period": "Mar 2026 — Mai 2026",
+    "period_en": "Mar 2026 — May 2026",
     "description": "Automação de processos operacionais e pipelines de integração de dados. Tratamento, modelagem e análise de grandes volumes de dados. Desenvolvimento e manutenção de dashboards gerenciais no Power BI com foco em KPIs estratégicos.",
     "description_en": "Automation of operational processes and data integration pipelines. Processing, modeling, and analysis of large volumes of data. Development and maintenance of management dashboards in Power BI focusing on strategic KPIs.",
     "technologies": ["Pentaho", "SQL", "Excel Avançado", "Power BI"]
